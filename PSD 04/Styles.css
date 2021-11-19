@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background-image: url(Images/back04.jpg); */
+    background-color: rgb(128, 0, 0);
+}
+.z-index{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: rgb(94, 0, 0);
+}
+nav{
+    width: 100%;
+    height: 130px;
+    /* background-color: rgba(90, 1, 1, 0.11); */
+    position: absolute;
+    border-top: turquoise;
+}
+.nav-hp{
+    width: 30%;
+    height: 30px;
+    padding: 50px;
+    float: left;
+    color: white;
+}
+.nav-bar{
+    width: 54%;
+    height: 30px;
+    padding: 50px;
+    float: left;
+}
+.nav-bar a{
+    padding-left: 40px;
+    text-decoration: none;
+    color: white;
+}
+header{
+    width: 100%;
+    height: 480px;
+    padding-top: 130px;
+    /* background-color: rgba(90, 1, 1, 0.555); */
+}
+.header-hp{
+    width: 20%;
+    height: 385px;
+    color: white;
+    margin-top: 95px;
+    padding-left: 70px;
+    float: left;
+}
+.header-hp h1{
+    font-size: 35px;
+}
+.header-img{
+    width: 40%;
+    height: 330px;
+    float: left;
+    padding-left: 432px;
+    margin-top: 50px;
+}
+.header-img img{
+    border-radius: 192px;
+}
+.m-grid-01{
+    width: 89%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 30px 70px;
+}
+.grid-01-1{
+    width: 70%;
+    height: 280px;
+    margin: 0px 16px;
+    background-color: whitesmoke;
+    padding: 10px 15px;
+}
+.grid-01-1-img{
+    width: 62%;
+    height: 125px;
+    padding-left: 40px;
+}
+.grid-01-1-hp{
+    width: 65%;
+    height: 160px;
+    text-align: center;
+    padding-left: 35px;
+}
+.grid-01-2{
+    width: 70%;
+    height: 280px;
+    margin: 0px 16px;
+    background-color: whitesmoke;
+    padding: 10px 15px;
+}
+.grid-01-2-img{
+    width: 62%;
+    height: 125px;
+    padding-left: 40px;
+}
+.grid-01-2-hp{
+    width: 65%;
+    height: 160px;
+    text-align: center;
+    padding-left: 35px;
+}.grid-01-3{
+    width: 70%;
+    height: 280px;
+    margin: 0px 16px;
+    background-color: whitesmoke;
+    padding: 10px 15px;
+}
+.grid-01-3-img{
+    width: 62%;
+    height: 125px;
+    padding-left: 40px;
+}
+.grid-01-3-hp{
+    width: 65%;
+    height: 160px;
+    text-align: center;
+    padding-left: 35px;
+}.grid-01-4{
+    width: 70%;
+    height: 280px;
+    margin: 0px 16px;
+    background-color: whitesmoke;
+    padding: 10px 15px;
+}
+.grid-01-4-img{
+    width: 62%;
+    height: 125px;
+    padding-left: 40px;
+}
+.grid-01-4-hp{
+    width: 65%;
+    height: 160px;
+    text-align: center;
+    padding-left: 35px;
+}
+.h1{
+    width: 16%;
+    height: 40px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    border-radius: 10px;
+    margin-left: 520px;
+}
+.m-grid-02{
+    width: 89%;
+    height: 420px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px 70px;
+}
+.m-img-1{
+    width: 78%;
+    height: 190px;
+    padding: 10px 20px;
+    padding-left: 43px;
+}
+.m-img-2{
+    width: 78%;
+    height: 190px;
+    padding: 10px 20px;
+    padding-left: 43px;
+}
+.m-img-3{
+    width: 78%;
+    height: 190px;
+    padding: 10px 20px;
+    padding-left: 43px;
+}
+.m-img-4{
+    width: 78%;
+    height: 190px;
+    padding: 10px 20px;
+    padding-left: 43px;
+}
+.m-img-5{
+    width: 78%;
+    height: 190px;
+    padding: 10px 20px;
+    padding-left: 43px;
+}
+.m-img-6{
+    width: 78%;
+    height: 190px;
+    padding: 10px 20px;
+    padding-left: 43px;
+}
+.m-footer{
+    width: 100%;
+    height: 330px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #303030;
+}
+.footer-01{
+    width: 100%;
+    height: 300px;
+    color: white;
+    margin-top: 30px;
+}
+.footer-02{
+    width: 100%;
+    height: 300px;
+    color: white;
+    margin-top: 30px;
+}
+.footer-02 li{
+    padding: 5px;
+}
+.footer-02 a{
+    text-decoration: none;
+    color: white;
+}
+.footer-03{
+    width: 100%;
+    height: 300px;
+    color: white;
+    margin-top: 30px;
+}
+.footer-03 a{
+    text-decoration: none;
+    color: rgb(81 210 239);
+    font-size: 20px;
+}
+.footer-04{
+    width: 100%;
+    height: 300px;
+    color: white;
+    margin-top: 30px;
+}
+.footer-04-form form input{
+    color: white;
+    padding: 7px;
+    background-color: maroon;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+.footer-04-form form textarea{
+    color: white;
+    padding: 7px;
+    background-color: maroon;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-left: -57px;
+}
+#submit-btn{
+    margin-top: 105px;
+    float: left;
+}
+.cop{
+    width: 100%;
+    height: 30px;
+    background-color: #303030;
+    color: white;
+    border-top: 2px solid #242323;
+    padding-top: 7px;
+}
